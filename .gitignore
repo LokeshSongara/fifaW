@@ -1,0 +1,16 @@
+# Data files (VERY LARGE)
+data/
+
+# Notebooks (not needed in production)
+notebook/
+
+# Trained ML models (optional, heavy)
+models/
+
+# Raw datasets
+*.csv
+*.pkl
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
