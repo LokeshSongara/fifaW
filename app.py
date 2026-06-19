@@ -170,3 +170,10 @@ if mode == "🏆 World Cup Simulator":
 
         st.markdown("### 🏁 Simulation Result Summary")
         st.write(winners)
+
+
+        import os
+import streamlit as st
+
+st.write(os.listdir("."))
+st.write(os.listdir("models"))
