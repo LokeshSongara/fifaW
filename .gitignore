@@ -6,6 +6,7 @@ notebook/
 
 # Trained ML models (optional, heavy)
 models/
+*.pkl
 
 # Raw datasets
 *.csv
