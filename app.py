@@ -177,3 +177,10 @@ import streamlit as st
 
 st.write(os.listdir("."))
 st.write(os.listdir("models"))
+import os
+import joblib
+
+BASE_DIR = os.path.dirname(__file__)
+model_path = os.path.join(BASE_DIR, "models", "fifa_rf_model.pkl")
+
+model = joblib.load(model_path)
